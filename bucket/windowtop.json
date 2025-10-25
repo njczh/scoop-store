@@ -1,0 +1,38 @@
+{
+    "version": "5.28.6",
+    "description": "Always on Top, Opacity, Picture-in-Picture (PiP), Dark Mode, Anchors — the ultimate Windows productivity tool",
+    "homepage": "https://windowtop.info/",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://github.com/WindowTop/WindowTop-App/blob/master/LICENSE"
+    },
+    "notes": [
+        "WindowTop is shareware. You can start a 30-day trial before purchasing.",
+        "Purchase from: https://windowtop.info/purchase/",
+        "Also available on Microsoft Store: https://apps.microsoft.com/detail/9pg6ghb4ct57"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/WindowTop/WindowTop-App/releases/download/5.28/WindowTop.v5.28.6.Portable.zip",
+            "hash": "e276a4d330228abce27d6fe82789abcbd12ac496333c8fe2ed2c86399a77f20b"
+        }
+    },
+    "bin": "WindowTop.exe",
+    "shortcuts": [
+        [
+            "WindowTop.exe",
+            "WindowTop"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/WindowTop/WindowTop-App/releases",
+        "regex": "/releases/download/(?<tag>[\\d.]+)/WindowTop\\.v([\\d.]+)\\.Portable\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/WindowTop/WindowTop-App/releases/download/$matchTag/WindowTop.v$version.Portable.zip"
+            }
+        }
+    }
+}
