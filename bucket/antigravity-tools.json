@@ -1,12 +1,12 @@
 {
-    "version": "3.3.39",
+    "version": "3.3.40",
     "description": "Your Personal High-Performance AI Dispatch Gateway - Multi-account management, protocol conversion and intelligent request scheduling",
     "homepage": "https://github.com/lbjlaq/Antigravity-Manager",
     "license": "CC-BY-NC-SA-4.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/lbjlaq/Antigravity-Manager/releases/download/v3.3.39/Antigravity.Tools_3.3.39_x64-setup.exe#/dl.7z",
-            "hash": "2bf16d03886c5a1a527f33d11a1757207c408aa0e8f77afcd2d4f01ea54d77db",
+            "url": "https://github.com/lbjlaq/Antigravity-Manager/releases/download/v3.3.40/Antigravity.Tools_3.3.40_x64-setup.exe#/dl.7z",
+            "hash": "f7b9b794d746b2d44f04a47a16da6d9f601e2746f7c948ec4d8bdb35e1211e2b",
             "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
         }
     },
