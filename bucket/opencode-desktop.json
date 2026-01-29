@@ -1,12 +1,12 @@
 {
-    "version": "1.1.39",
+    "version": "1.1.41",
     "description": "OpenCode Desktop - AI-powered coding assistant (Beta)",
     "homepage": "https://github.com/sst/opencode",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/sst/opencode/releases/download/v1.1.39/opencode-desktop-windows-x64.exe#/dl.7z",
-            "hash": "518501ec0f72658190aa6282642bafe7187d5b2bfbd62b90abbf2e86a586e735"
+            "url": "https://github.com/sst/opencode/releases/download/v1.1.41/opencode-desktop-windows-x64.exe#/dl.7z",
+            "hash": "f1434250f16798183e75dc1d290b4f857e183739a29e171ea1ce962554ae034b"
         }
     },
     "pre_install": [
