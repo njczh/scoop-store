@@ -1,5 +1,5 @@
 {
-    "version": "5.31.6",
+    "version": "5.31.7",
     "description": "Always on Top, Opacity, Picture-in-Picture (PiP), Dark Mode, Anchors — the ultimate Windows productivity tool",
     "homepage": "https://windowtop.info/",
     "license": {
@@ -13,8 +13,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/WindowTop/WindowTop-App/releases/download/5.31/WindowTop.v5.31.6.Portable.zip",
-            "hash": "f9e537eef12a8ed4bfcac3bb25dfcdad26acd44a1cf95749244d80b2d428069d"
+            "url": "https://github.com/WindowTop/WindowTop-App/releases/download/5.31/WindowTop.v5.31.7.Portable.zip",
+            "hash": "e59eaea0e163c045a9fdbb6523c6850856224fc6f7a5cffb221d1946d2d5cd6c"
         }
     },
     "bin": "WindowTop.exe",
