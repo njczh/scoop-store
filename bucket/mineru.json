@@ -1,0 +1,35 @@
+{
+    "version": "0.13.2",
+    "description": "MinerU - A document parsing engine that converts PDFs, Office files, images, and web pages into structured Markdown or JSON",
+    "homepage": "https://mineru.net",
+    "license": "Proprietary",
+    "url": "https://webpub.shlab.tech/MinerU/latest/win/MinerU-0.13.2-setup.exe#/dl.7z",
+    "hash": "951b89413eb7b82ecf85646305d058a6bc556ab777e067e89c99d94553d0f4a3",
+    "architecture": {
+        "64bit": {
+            "pre_install": "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-64.7z\" -DestinationPath \"$dir\" -Removal"
+        },
+        "32bit": {
+            "pre_install": "Expand-7zipArchive -Path \"$dir\\`$PLUGINSDIR\\app-32.7z\" -DestinationPath \"$dir\" -Removal"
+        }
+    },
+    "post_install": [
+        "Remove-Item -Path \"$dir\\`$*\" -Recurse -Force -ErrorAction SilentlyContinue",
+        "Remove-Item -Path \"$dir\\resources\\app-update.yml\" -Force -ErrorAction SilentlyContinue"
+    ],
+    "shortcuts": [
+        [
+            "MinerU.exe",
+            "MinerU",
+            "--user-data-dir=\"User Data\""
+        ]
+    ],
+    "persist": "User Data",
+    "checkver": {
+        "url": "https://webpub.shlab.tech/MinerU/latest/win/latest.yml?a=1",
+        "regex": "version: ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://webpub.shlab.tech/MinerU/latest/win/MinerU-$version-setup.exe#/dl.7z"
+    }
+}
