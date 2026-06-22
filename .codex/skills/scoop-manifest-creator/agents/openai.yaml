@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scoop Manifest Creator"
+  short_description: "Create researched custom Scoop manifests."
+  default_prompt: "Use $scoop-manifest-creator to research an app and create a custom Scoop manifest."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scoop Bucket Commit Message"
+  short_description: "Format Scoop bucket commits and PR titles."
+  default_prompt: "Use $scoop-bucket-commit-message to format the commit message for a Scoop bucket change."
