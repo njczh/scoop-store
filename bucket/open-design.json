@@ -1,12 +1,12 @@
 {
-    "version": "0.18.0",
+    "version": "0.18.1",
     "description": "Local-first, open-source agentic design workspace.",
     "homepage": "https://github.com/nexu-io/open-design",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://releases.open-design.ai/stable/versions/0.18.0/open-design-0.18.0-win-x64-portable.zip",
-            "hash": "32629ffa65d55ca86709d8ead5e806627e8e498b8507fd795aa16cd1c5385a94"
+            "url": "https://releases.open-design.ai/stable/versions/0.18.1/open-design-0.18.1-win-x64-portable.zip",
+            "hash": "f0a9ea9cd27e8baea1d4164d02be08aa93953745840e57fa6692ae167f3251c3"
         }
     },
     "shortcuts": [
