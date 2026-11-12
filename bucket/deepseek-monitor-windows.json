@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.3",
     "description": "Windows desktop monitor for DeepSeek API balance and usage.",
     "homepage": "https://github.com/Joyi-code/DeepSeekMonitorWindows",
     "license": "MIT",
@@ -10,8 +10,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Joyi-code/DeepSeekMonitorWindows/releases/download/v1.1.0/DeepSeekMonitorWindows_1.1.0_x64-setup.exe#/dl.7z",
-            "hash": "b13ef28bb7e803d923e1a00bce4a873b4eb7f2f592aff690173c2e9291f1d13f",
+            "url": "https://github.com/Joyi-code/DeepSeekMonitorWindows/releases/download/v1.2.3/DeepSeekMonitorWindows_1.2.3_x64-setup.exe#/dl.7z",
+            "hash": "3148178abb80aa5db02136cb1298c12e7f36eeef43d94a14bb826a525c26fc99",
             "pre_install": "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
         }
     },
